@@ -1,8 +1,7 @@
 const router = require('express').Router()
 
 router.get('/', (req, res) =>{
-    res.send("Normal cara")
+    res.render('index')
 })
-
 
 module.exports = router

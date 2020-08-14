@@ -1,0 +1,22 @@
+//ANOTAÇÕES SOBRE PROXIMO CRUD
+
+<div class="card">
+    <div class="card-body">
+        <form action="" method="POST">
+            <label>Nome:</label>
+             <input type="text" class="form-control" placeholder="Nome" maxlength="100" name="nome">
+            <label>Codigo de barras:</label>
+             <input type="text" class="form-control" placeholder="Ex: 123456767889" maxlength="12" name="cod">
+             <label>Modelo:</label>
+             <input type="text" class="form-control" placeholder="Ex: MakeJoy" maxlength="100" name="modelo">
+             <label>Descrição:</label>
+             <input type="text" class="form-control" placeholder="Ex: Paleta panda" maxlength="100" name="desc">
+             <label>Preço:</label>
+             <input type="text" class="form-control" placeholder="Ex: 12,35" maxlength="8" name="preco">
+             <label>Quantidade:</label>
+             <input type="text" class="form-control" placeholder="Ex: 5" maxlength="10" name="qnt">
+             <br/>
+            <button type="submit" class="btn btn-outline-danger">Cadastrar</button>
+        </form>
+    </div>
+</div>

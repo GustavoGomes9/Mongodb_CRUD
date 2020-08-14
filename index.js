@@ -24,7 +24,7 @@ const objServer = {host: 'localhost', port: '3000'}
     app.set('view engine', 'handlebars')
 
     // Conexao com banco Mongodb via mongoose
-        mongoose.connect('mongodb://localhost/root', { 
+        mongoose.connect('mongodb://localhost/blog', { 
             useNewUrlParser: true,  useUnifiedTopology: true 
         }).then(() => {
             console.log("Banco de dados conectado")
